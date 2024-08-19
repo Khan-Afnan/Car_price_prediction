@@ -50,14 +50,7 @@ streamlit run streamlit.py
 
 
 # Dataset
-The model was trained on a cleaned dataset of used cars (clean_car_data.csv), which includes features like:
-Car Model
-Fuel Type
-Seller Type
-Transmission
-Owner Type
-Kilometers Driven
-Car Age
+The model was trained on a cleaned dataset of used cars (clean_car_data.csv), which includes features like:Car Model,Fuel Type,Seller Type,Transmission,Owner Type,Kilometers Driven,Car Age,
 
 The machine learning model is a pre-trained model stored in the file car_details.pkl. It was trained using Scikit-learn. The model is used to predict the price based on the provided inputs.
 
